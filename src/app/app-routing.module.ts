@@ -5,6 +5,7 @@ import { SigninComponent } from './components/signin/signin.component';
 import {HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 import { FormComponent } from './components/form/form.component';
+import { ListComponent } from './components/list/list.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,8 @@ const routes: Routes = [
   },
   {
     path:'form',component:FormComponent
+  },{
+    path:'list',component:ListComponent
   }
 ];
 
