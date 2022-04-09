@@ -12,4 +12,7 @@ export class ListService {
    return  this.http.get(this.baseUrl)
 
   }
+  getlistbyid(id:number){
+    return this.http.get('https://reqres.in/api/users'+'/'+id)
+  }
 }
