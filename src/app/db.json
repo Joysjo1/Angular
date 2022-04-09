@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "email": "joy@gmail.com",
+      "password": "fgfgf",
+      "id": 3
+    },
+    {
+      "email": "joys12@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "email": "joy22@gmail.com",
+      "password": "dfghjkl",
+      "id": 5
+    },
+    {
+      "email": "hiiii",
+      "password": "qwert",
+      "id": 6
+    },
+    {
+      "email": "joysjobin70@gmail.com",
+      "password": "123654",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
