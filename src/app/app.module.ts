@@ -7,13 +7,15 @@ import { SigninComponent } from './components/signin/signin.component';
 import { EditComponent } from './components/edit/edit.component';
 import { LoginComponent } from './components/login/login.component';
 import { RouterModule } from '@angular/router';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SigninComponent,
     EditComponent,
-    LoginComponent
+    LoginComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
