@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SigninComponent } from './components/signin/signin.component';
 import {HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
+import { FormComponent } from './components/form/form.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,9 @@ const routes: Routes = [
   },
   {
     path:'',component:LoginComponent
+  },
+  {
+    path:'form',component:FormComponent
   }
 ];
 
