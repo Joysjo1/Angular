@@ -1,8 +1,8 @@
 
 
-  <div class="card" style="width: 18rem;">
+  <!-- <div class="card" style="width: 18rem;"> -->
     <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-    <div class="card-body">
+    <!-- <div class="card-body">
         <form [formGroup]="userForm">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
@@ -20,5 +20,15 @@
             <button type="submit" class="btn btn-primary" (click)="submit()">Submit</button>
           </form>
       
+    </div>
+  </div> -->
+
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{list?.avatar}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{list?.first_name}}</h5>
+      <h4 > {{list?.email}}</h4>
+      <button (click)="back()" class="btn btn-primary">back</button>
     </div>
   </div>
