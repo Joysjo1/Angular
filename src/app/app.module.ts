@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { FormComponent } from './components/form/form.component';
 import { ListComponent } from './components/list/list.component';
 import { AddComponent } from './components/add/add.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AddComponent } from './components/add/add.component';
     LoginComponent,
     FormComponent,
     ListComponent,
-    AddComponent
+    AddComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
