@@ -10,19 +10,9 @@ import { AddComponent } from './components/add/add.component';
 
 const routes: Routes = [
   {
-    path:'siginin',component:SigninComponent
-  },
-  {
-    path:'add',component:AddComponent
-  },
-  {
-    path:'form',component:FormComponent
-  },{
-    path:'list',component:ListComponent
-  },
-  {
-    path:'list/:id',component:FormComponent
-  },
+    path: 'user',
+    loadChildren: () => import('./user/user.module').then(m => m.UserModule)
+  }
 ];
 
 @NgModule({
